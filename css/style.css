@@ -1,0 +1,141 @@
+   @font-face{
+	   src:url('../assets/font/Lobster-Regular.ttf');
+	   font-family:Lobster;
+   }
+   *{ margin:0;
+	box-sizing:border-box;
+	}
+	.main1{
+		width:100%;
+		background-color:rgba(225,225,225,0.5);
+		overflow:auto;
+	}
+	.main_container{
+		margin:auto;
+		width:100%;
+		overflow:auto;
+		display:flex;
+		flex-wrap:nowrap;
+		flex-basis:100%;
+		}
+		.pointer {
+    cursor: pointer !important;
+}
+.flex1{
+		   flex-shrink: 0;
+    max-height: 100%;
+    overflow: hidden;
+	flex-basis: 275px;
+		}
+		.container{
+		width:33.3%;
+		padding:5px;
+		float:left;
+		font-size:20px;
+	}	
+	.container ul{
+		margin-left:-35px;
+		}
+	li{
+		display:inline-block;
+		padding:2px;
+		font-size:10px;
+		border-radius:4px;
+	}
+	a{
+		text-decoration:none;
+		color:white;
+		font-family:Lobster;
+		
+	}
+	.padd{
+		padding:0;
+	}
+	.new{
+		width:50%;
+		padding:5px;
+		font-size:20px;
+		float:left;
+	}
+	.align{
+		text-align:left;
+	}
+	.tcolor{
+		color:white;
+	}
+.imag{
+	background-image:url("../images/couple2.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100vh;
+}
+.card-block { background-color: rgba(245, 245, 245, 0.4); }
+.block1{
+	background-color:#4090ac;
+	border-radius:5px;
+	padding:5px 10px;
+	font-size:20px;
+}
+.block2{
+	background-color:#dce4e6;
+	padding:12px;
+	border-radius:5px;
+	margin:5px;
+}
+.block3{
+	display:block;
+	color:gray;
+	background-color:white;
+	padding:12px;
+	border-radius:5px;
+	margin-top:10px;
+}
+.block4{
+	background-color:#4090ac;
+	border-radius:5px;
+	padding:2.5px 0px;
+	font-size:20px;
+}
+.full-width-input {
+    width: 100%;
+    border: 1px solid lightgray;
+    font-size: 1em;
+    resize: none;
+	color:black;
+}
+.button1{
+	background-color:#808000;
+	color:white;
+	font-size:20px;
+	border-radius:5px;
+	margin-top:10px;
+	padding:10px;
+	cursor:pointer;
+}
+.button2{
+	font-size:35px;
+	color:#808000;
+	padding:10px;
+	display:inline-block;
+	position:relative;
+	top:5px;
+}
+.addcard{
+	display:block;
+	text-decoration:none;
+	margin-top:10px;
+	color:gray
+}
+.a1 .a2{visibility:hidden;}
+.a1:hover .a2{	
+	visibility:visible;
+}
+.a3:hover{
+	opacity:0.75;
+}
+textarea::placeholder{
+	font-size:15px;
+}
+input:focus{
+	background-color:white;
+	outline:0;
+}
